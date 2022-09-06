@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>IMC Calculator</title>
+
+  <script src="./js/script.js" defer></script>
+  
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="alert-error">
+    Digite somente números
+  </div>
+
+  <div class="container">
+
+    <main class="card">
+      <button id="button-infos" title="Parâmetros">&#63;</button>
+
+      <form action="">
+        <h1 class="title">Calculadora IMC</h1>
+
+        <div class="input-wrapper">
+          <label for="weight">Peso:</label>
+          <input id="weight" type="text" placeholder="Insira seu peso(kg)">
+        </div>
+
+        <div class="input-wrapper">
+          <label for="height">Altura:</label>
+          <input id="height" type="text" placeholder="Insira sua altura(cm)">
+        </div>
+
+        <button type="submit">Calcular IMC
+          <img src="./images/arrow.svg" alt="Seta apontando para direita">
+        </button>
+
+      </form>
+
+    </main>
+
+    <footer>
+      <a href="https://higomoreiraq.github.io/Bio-Higo-Moreira" target="_blank">@higomoreiraq</a>
+    </footer>
+
+  </div>
+
+  <div id="#modal-result" class="modal-wrapper">
+
+    <div class="modal card">
+
+      <h2 class="title">
+        <button class="close" title="Fechar">
+          <img src="./images/close.svg" alt="Imagem de um X">
+        </button>
+        
+        <!-- <span>Seu IMC é de 28</span> -->
+        <div class="modal-result-imc">
+          <p>Seu IMC é de <span>28,95</span></p><br>
+          <p>Este valor considera sua faixa como:</p>
+        </div>
+
+        <div class="modal-result-range">
+          <span>Obesidade grau 1</span>
+        </div>
+      </h2>
+
+    </div>
+
+  </div>
+
+  <div id="modal-infos" class="modal-wrapper">
+
+    <div class="modal card">
+
+      <h2 class="title">
+        <button id="close-infos" class="close" title="Fechar">
+          <img src="./images/close.svg" alt="Imagem de um X">
+        </button>
+        
+        <div>
+          <h3>Parâmetros</h3>
+          <ul>
+            <li>16 a 16,9 kg/m²: Muito abaixo do peso</li>
+            <li>17 a 18,4 kg/m²: Abaixo do peso</li>
+            <li>18,5 a 24,9 kg/m²: Peso normal</li>
+            <li>25 a 29,9 kg/m²: Acima do peso</li>
+            <li>30 a 34,9 kg/m²: Obesidade grau 1</li>
+            <li>35 a 40 kg/m²: Obesidade grau 2</li>
+            <li>acima de 40 kg/m²: Obesidade grau 3</li>
+          </ul>
+          <a href="https://www.uol.com.br/vivabem/faq/imc-como-calcular-tabela-dicas-como-melhorar-e-mais.htm" target="_blank">Fonte: UOL (acesso em 21/07/2022)</a>
+        </div>
+      </h2>
+
+    </div>
+
+  </div>
+</body>
+</html>
