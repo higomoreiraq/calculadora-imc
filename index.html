@@ -29,14 +29,16 @@
       <form action="">
         <h1 class="title">Calculadora IMC</h1>
 
-        <div class="input-wrapper">
+        <div id="box-weight" class="input-wrapper">
           <label for="weight">Peso:</label>
-          <input id="weight" type="text" placeholder="Insira seu peso(kg)">
+          <input id="weight" type="text" placeholder="Insira seu peso">
+          <label id="absolute-kg" for="weigt">(kg)</label>
         </div>
 
-        <div class="input-wrapper">
+        <div id="box-height" class="input-wrapper">
           <label for="height">Altura:</label>
-          <input id="height" type="text" placeholder="Insira sua altura(cm)">
+          <input id="height" type="text" placeholder="Insira sua altura">
+          <label id="absolute-cm" for="height">(cm)</label>
         </div>
 
         <button type="submit">Calcular IMC

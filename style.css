@@ -147,6 +147,28 @@ form input {
   border-radius: 0.4rem;
 }
 
+#box-weight {
+  position: relative;
+}
+
+#absolute-kg {
+  position: absolute;
+  right: 10px;
+  top: 56%;
+  color: var(--tt-placeholder);
+}
+
+#box-height {
+  position: relative;
+}
+
+#absolute-cm {
+  position: absolute;
+  right: 10px;
+  top: 56%;
+  color: var(--tt-placeholder);
+}
+
 form input:focus, button:focus, a:focus {
   outline: 2px solid var(--ot-input)
 }
