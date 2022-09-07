@@ -5,7 +5,7 @@
 }
 
 :root {
-  font-size: 62.5%; /* 1rem = 10px */
+  font-size: 62.5%;
 
   --bg-card: #FFFFFF;
 
@@ -30,10 +30,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
-  /* height: 100vh; */
   background: linear-gradient(0deg, rgba(34,102,195,1) 0%, rgba(45,253,146,1) 100%);
-  /* padding-top: 12rem; */
-  /* width: 100%; */
 }
 
 body, input, button {
@@ -169,8 +166,7 @@ form button {
 
   border-radius: 0.4rem;
   border: none;
-  /* background-color: var(--bg-button); */
-  /* background: linear-gradient(90deg, rgba(34,102,195,1) 0%, rgba(45,253,146,1) 100%); */
+ 
   background: var(--bg-button);
   color: var(--tt-button);
   
@@ -191,7 +187,7 @@ button {
 form button:hover {
   background: linear-gradient(90deg, rgb(24, 88, 177) 0%, rgb(28, 222, 122) 100%);
 }
-/*  */
+
 footer {
   text-align: center;
   margin-top: 4rem;
@@ -205,8 +201,6 @@ footer a {
 footer a:hover {
   filter: sepia(1.1);
 }
-
-/*  */
 
 .modal-wrapper.open {
   opacity: 1;
