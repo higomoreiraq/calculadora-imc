@@ -64,9 +64,9 @@ Also containing the link to the reference page for consultation.
 
 ## Technologies used:
 
--HTML;
--CSS;
--Javascript.
+- HTML;
+- CSS;
+- Javascript.
 
 ## Preview
 
