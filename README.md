@@ -1,4 +1,4 @@
-# Calculadora IMC
+# Calculadora IMC 💚
 
 Aplicação de uma calculadora IMC com apresentação de informações em modais.
 
@@ -44,7 +44,7 @@ Para conferir a aplicação, acesse:
 #
 # 🌎 English
 
-# BMI Calculator
+# BMI Calculator 💚
 
 Application of a BMI calculator with information presentation in modals.
 
